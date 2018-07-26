@@ -86,6 +86,53 @@ body {
     outline: none;
 }
 
+/* features about why we are best */
+
+#key-features {
+    background: #ff1b68;
+    margin-top: 80px;
+    padding: 16px; 
+}
+
+#key-features > .section-title {
+    color: white;
+    margin: 32px;
+}
+
+.key-feature__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.key-feature {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+.key-feature__image {
+    background: #ffcede;
+    width: 128px;
+    height: 128px;
+    margin: 0 auto;
+    border: 2px solid #424242;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+}
+
+.key-feature__description {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+
 .plan--highlighted {
     background: #19b84c;
     color: white;
@@ -104,6 +151,7 @@ body {
     -o-border-radius: 8px;
 }
 
+/* Header section style */
 .main-header {
     width: 100%;
     background-color: #2ddf5c;
@@ -169,4 +217,32 @@ body {
     color: #ff1b68;
     background: white;
     border-bottom: none;
+}
+
+.main-footer {
+    background: black;
+    padding: 32px;
+    margin-top: 48px;
+}
+
+.main-footer__links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.main-footer__link {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.main-footer__link a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-footer__link a:hover,
+.main-footer__link a:active {
+    color: #ccc;
 }
